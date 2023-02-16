@@ -1,0 +1,38 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.tabela{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin-top: 200px;
+    width: auto;
+}
+table{
+    width: auto;
+    table-layout: auto;
+
+    border: solid 2px black;
+    border-radius: 5px;
+    
+    
+}
+td, tr, th{
+    padding: 5px;
+    border: solid 2px transparent;
+}
+thead th{
+    background-color: beige;
+    text-transform: uppercase;
+}
+/* numeros impares*/
+tr:nth-child(odd){
+    background-color: rgb(255, 255, 255);
+}
+/* Números pares*/
+tr:nth-child(even){
+    background-color: rgb(158, 158, 158);
+}
